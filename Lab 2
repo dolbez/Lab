@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int f1(int a)
+{
+	return a / 1000;
+}
+void f2()
+{
+	//неккоректная задача
+}
+
+void f3()
+{
+	//неккоректная задача
+}
+int f4(int x,int y)
+{
+	int o=pow(x,x+3)+pow(y,3)/sin(x);
+	int p=sqrt(o)/cos(y);
+}
+
+
+int main()
+{
+	cout << f1(10000) << endl;
+	cout << f2<<endl;
+	cout << f3 << endl;
+	cout<<f4(20,15)<<endl;
+}
